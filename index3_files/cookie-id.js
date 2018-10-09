@@ -1,0 +1,1 @@
+(typeof(eluminate5225) == 'function') && eluminate5225('80121531926297106959792');
