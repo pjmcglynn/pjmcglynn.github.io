@@ -1,0 +1,103 @@
+.ui-dialog{
+	padding:0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-state-focus, .ui-button:focus, .ui-widget-header .ui-state-focus, .ui-widget-content .ui-state-focus{
+	background:#000;
+	color:#fff !important;
+	border:0 !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-button:hover {
+background:#767676;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	padding: 10px 40px 10px 10px;
+	position: relative;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	display:block;
+	right:0;
+	top:0;
+	bottom:0;
+	width:auto;
+	height:100%;
+	padding:0 20px;
+	cursor:pointer;
+	background:none;
+	margin:0;
+	border:0;
+}
+.ui-dialog .ui-dialog-titlebar-close *{
+	padding:0 !important;
+}
+.ui-dialog .ui-dialog-titlebar-close:before,
+.ui-dialog .ui-dialog-titlebar-close:after{
+	content:'';
+	width:1px;
+	background:#000;
+	height:20px;
+	display:block;
+	position:absolute;
+	top:11px;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.ui-dialog .ui-dialog-titlebar-close:before{
+	transform: rotate(45deg);
+}
+.ui-dialog .ui-dialog-titlebar-close:after{
+	transform: rotate(-45deg);
+}
+.ui-dialog .ui-dialog-titlebar-close:hover{
+	background:#767676;
+}
+.ui-dialog .ui-dialog-titlebar-close:hover:before,
+.ui-dialog .ui-dialog-titlebar-close:hover:after{
+	background:#fff;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: center;
+	border-width: 1px 0 0 0;
+	background:#f4f4f4;
+	margin-top: .5em;
+	padding: 10px;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: none;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: 0 5px;
+	cursor: pointer;
+}
+.ui-widget{
+	font-family:inherit;
+	font-size:inherit;
+}
+.ui-widget.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	border-top:3px solid #000;
+	background: #ffffff url(../images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+
+}
+.ui-widget-header {
+	background: #f4f4f4;
+	font-family: 'lato';
+	text-transform:uppercase;
+	font-weight:normal;
+    color:#000;
+    border:0;
+}
+.ui-corner-all{
+	border-radius:0;
+}
+
+.ui-widget-overlay.ui-front {
+	z-index: 200 !important;
+}
+.ui-front {
+	z-index: 300 !important;
+}
